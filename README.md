@@ -1,6 +1,7 @@
 # reQ Programming Language
 
 Welcome to reQ, a revolutionary programming language designed for high-performance computing, mathematical correctness, and seamless multi-language integration.
+DEVELOPED BY CVAKI
 
 reQ (recursive Queue) is a compiled, statically-typed language that combines the performance of C, the developer-friendly syntax of Python, and a unique, recursion-only programming model. Its standout feature is the **FRIEND (Foreign Runtime Integration and Embedded Native Development)** system, which allows you to embed C++, Python, and Java code directly into your reQ programs.
 
