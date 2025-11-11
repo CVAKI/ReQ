@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reQ Programming Language - Revolutionary High-Performance Computing</title>
+    <meta name="description" content="reQ: Pure recursion, hyper-multithreading, and seamless multi-language integration. Created by CVAKI.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-container">
+        <div class="gradient-pulse"></div>
+        <div class="floating-particles" id="particles"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="nav-left">
+                <img src="reQ.jpg" alt="reQ Logo" class="logo-img">
+                <div class="brand">
+                    <h1 class="brand-title">reQ</h1>
+                    <p class="brand-subtitle">by CVAKI</p>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#syntax">Syntax</a>
+                <a href="#friend">FRIEND</a>
+                <a href="#docs">Docs</a>
+            </div>
+            <button class="btn-primary">Get Started</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="badge">
+                    🚀 Compiled to Assembly • Near-C Performance
+                </div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">reQ</span>
+                    <br>
+                    <span class="hero-subtitle">Recursive Queue Programming</span>
+                </h1>
+                <p class="hero-description">
+                    The revolutionary language combining pure recursion, hyper-multithreading, 
+                    and seamless multi-language integration through the FRIEND system.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-success">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                        </svg>
+                        <span>Install beetroot</span>
+                    </button>
+                    <button class="btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        <span>View Docs</span>
+                    </button>
+                </div>
+                <div class="hero-meta">
+                    <div class="meta-item">
+                        <div class="pulse-dot"></div>
+                        <span>Created by CVAKI</span>
+                    </div>
+                    <div class="meta-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <polyline points="19 12 12 19 5 12"></polyline>
+                        </svg>
+                        <span>v2.0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="code-window">
+                    <div class="code-header">
+                        <div class="window-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <span class="code-title" id="codeTitle">Hello World</span>
+                    </div>
+                    <div class="code-content">
+                        <pre id="codeDisplay"></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title gradient-text">Revolutionary Features</h2>
+            <div class="features-grid" id="featuresGrid"></div>
+        </div>
+    </section>
+
+    <!-- Syntax Showcase -->
+    <section id="syntax" class="syntax-section">
+        <div class="container">
+            <h2 class="section-title gradient-text-green">Beautiful Syntax</h2>
+            <div class="syntax-grid">
+                <div class="syntax-card">
+                    <h3 class="syntax-card-title">Function Definition</h3>
+                    <div class="code-block">
+                        <pre id="syntaxExample1"></pre>
+                    </div>
+                </div>
+                <div class="syntax-card">
+                    <h3 class="syntax-card-title">Thread Execution</h3>
+                    <div class="code-block">
+                        <pre id="syntaxExample2"></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation Navigator -->
+    <section id="docs" class="docs-section">
+        <div class="container">
+            <div class="docs-layout">
+                <aside class="docs-sidebar">
+                    <h2 class="sidebar-title">Documentation</h2>
+                    <div class="nav-buttons" id="navButtons"></div>
+                </aside>
+
+                <div class="docs-content">
+                    <div class="content-card" id="docContent"></div>
+                    
+                    <div class="examples-card">
+                        <div class="examples-header">
+                            <h3>Code Examples</h3>
+                        </div>
+                        <div class="examples-tabs" id="exampleTabs"></div>
+                        <div class="example-code">
+                            <pre id="exampleCode"></pre>
+                        </div>
+                    </div>
+
+                    <div id="embeddingHighlight"></div>
+
+                    <div class="performance-card">
+                        <h3 class="performance-title">Performance Benchmarks</h3>
+                        <div class="benchmarks" id="benchmarks"></div>
+                        <p class="performance-note">* Near-native C performance with high-level abstractions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FRIEND System -->
+    <section id="friend" class="friend-section">
+        <div class="container">
+            <h2 class="section-title gradient-text-pink">FRIEND System</h2>
+            <p class="friend-subtitle">
+                Foreign Runtime Integration and Embedded Native Development - 
+                Seamlessly integrate C++, Python, and Java code
+            </p>
+            <div class="friend-grid">
+                <div class="friend-card">
+                    <div class="friend-icon">🐍</div>
+                    <h3 class="friend-title">Python</h3>
+                    <p class="friend-desc">ML/AI and Data Science</p>
+                </div>
+                <div class="friend-card">
+                    <div class="friend-icon">⚡</div>
+                    <h3 class="friend-title">C++</h3>
+                    <p class="friend-desc">Performance Critical Code</p>
+                </div>
+                <div class="friend-card">
+                    <div class="friend-icon">☕</div>
+                    <h3 class="friend-title">Java</h3>
+                    <p class="friend-desc">Enterprise Integration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="https://i.postimg.cc/0NKjj1b0/req-removebg-preview.png" alt="reQ Logo" class="footer-logo">
+                <div>
+                    <h3 class="footer-title">reQ Programming Language</h3>
+                    <p class="footer-creator">Created by CVAKI</p>
+                </div>
+            </div>
+            <p class="footer-tagline">
+                Compiled by beetroot • Near-C Performance • 100+ Threads
+            </p>
+            <div class="footer-links">
+                <a href="#">Documentation</a>
+                <a href="#">GitHub</a>
+                <a href="#">Community</a>
+                <a href="#">Support</a>
+            </div>
+            <p class="footer-copyright">
+                © 2024 reQ Language by CVAKI. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
